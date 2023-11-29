@@ -5,24 +5,25 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
-public class BaseClass {
+public class BaseClassTest {
 	
 	
-	@BeforeClass
+	@Test
 	public void config_BC() {
 		System.out.println("this is before class");
 	}
-	@BeforeMethod
+	@Test
 	public void config_BM() {
 		System.out.println("this is before Method ");
 	}
-	@AfterMethod
+	@Test
 	public void config_AM() {
 		System.out.println("this is After MEthod ");
 		
 	}
-	@AfterClass
+	@Test
 	public void cofig_AC() {
 		System.out.println("this is after class");
 	}
