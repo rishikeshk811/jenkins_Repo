@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-30T12:30:27 IST" name="Suite" finished-at="2023-11-30T12:30:28 IST" duration-ms="715">
+  <suite started-at="2023-11-30T17:52:16 IST" name="Default suite" finished-at="2023-11-30T17:52:16 IST" duration-ms="675">
     <groups>
+      <group name="regression">
+        <method signature="BaseClassTest.config_BM()[pri:0, instance:com.OTM.GenericUtils.BaseClassTest@351d00c0]" name="config_BM" class="com.OTM.GenericUtils.BaseClassTest"/>
+      </group> <!-- regression -->
       <group name="smoke">
-        <method signature="BaseClassTest.cofig_AC()[pri:0, instance:com.OTM.GenericUtils.BaseClassTest@34a3d150]" name="cofig_AC" class="com.OTM.GenericUtils.BaseClassTest"/>
-        <method signature="BaseClassTest.config_BC()[pri:0, instance:com.OTM.GenericUtils.BaseClassTest@34a3d150]" name="config_BC" class="com.OTM.GenericUtils.BaseClassTest"/>
-        <method signature="ClassTwoTest.classTwoMethod1()[pri:0, instance:com.OTM.GenericUtils.ClassTwoTest@692f203f]" name="classTwoMethod1" class="com.OTM.GenericUtils.ClassTwoTest"/>
-        <method signature="ClassTwoTest.classTwoMethod4()[pri:0, instance:com.OTM.GenericUtils.ClassTwoTest@692f203f]" name="classTwoMethod4" class="com.OTM.GenericUtils.ClassTwoTest"/>
+        <method signature="BaseClassTest.cofig_AC()[pri:0, instance:com.OTM.GenericUtils.BaseClassTest@351d00c0]" name="cofig_AC" class="com.OTM.GenericUtils.BaseClassTest"/>
+        <method signature="BaseClassTest.config_BC()[pri:0, instance:com.OTM.GenericUtils.BaseClassTest@351d00c0]" name="config_BC" class="com.OTM.GenericUtils.BaseClassTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-11-30T12:30:27 IST" name="Test" finished-at="2023-11-30T12:30:28 IST" duration-ms="715">
+    <test started-at="2023-11-30T17:52:16 IST" name="Default test" finished-at="2023-11-30T17:52:16 IST" duration-ms="675">
       <class name="com.OTM.GenericUtils.BaseClassTest">
-        <test-method signature="cofig_AC()[pri:0, instance:com.OTM.GenericUtils.BaseClassTest@34a3d150]" started-at="2023-11-30T12:30:28 IST" name="cofig_AC" finished-at="2023-11-30T12:30:28 IST" duration-ms="26" status="PASS">
+        <test-method signature="cofig_AC()[pri:0, instance:com.OTM.GenericUtils.BaseClassTest@351d00c0]" started-at="2023-11-30T17:52:16 IST" name="cofig_AC" finished-at="2023-11-30T17:52:16 IST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cofig_AC -->
-        <test-method signature="config_BC()[pri:0, instance:com.OTM.GenericUtils.BaseClassTest@34a3d150]" started-at="2023-11-30T12:30:28 IST" name="config_BC" finished-at="2023-11-30T12:30:28 IST" duration-ms="4" status="PASS">
+        <test-method signature="config_AM()[pri:0, instance:com.OTM.GenericUtils.BaseClassTest@351d00c0]" started-at="2023-11-30T17:52:16 IST" name="config_AM" finished-at="2023-11-30T17:52:16 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_AM -->
+        <test-method signature="config_BC()[pri:0, instance:com.OTM.GenericUtils.BaseClassTest@351d00c0]" started-at="2023-11-30T17:52:16 IST" name="config_BC" finished-at="2023-11-30T17:52:16 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config_BC -->
+        <test-method signature="config_BM()[pri:0, instance:com.OTM.GenericUtils.BaseClassTest@351d00c0]" started-at="2023-11-30T17:52:16 IST" name="config_BM" finished-at="2023-11-30T17:52:16 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_BM -->
       </class> <!-- com.OTM.GenericUtils.BaseClassTest -->
-      <class name="com.OTM.GenericUtils.ClassTwoTest">
-        <test-method signature="classTwoMethod1()[pri:0, instance:com.OTM.GenericUtils.ClassTwoTest@692f203f]" started-at="2023-11-30T12:30:28 IST" name="classTwoMethod1" finished-at="2023-11-30T12:30:28 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classTwoMethod1 -->
-        <test-method signature="classTwoMethod4()[pri:0, instance:com.OTM.GenericUtils.ClassTwoTest@692f203f]" started-at="2023-11-30T12:30:28 IST" name="classTwoMethod4" finished-at="2023-11-30T12:30:28 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classTwoMethod4 -->
-      </class> <!-- com.OTM.GenericUtils.ClassTwoTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
