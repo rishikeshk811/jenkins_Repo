@@ -10,11 +10,11 @@ import org.testng.annotations.Test;
 public class BaseClassTest {
 	
 	
-	@Test
+	@Test(groups = "smoke")
 	public void config_BC() {
-		System.out.println("this is before class");
+		System.out.println("this is smoke test Method 1");
 	}
-	@Test
+	@Test(groups = "regression")
 	public void config_BM() {
 		System.out.println("this is before Method ");
 	}
@@ -23,7 +23,7 @@ public class BaseClassTest {
 		System.out.println("this is After MEthod ");
 		
 	}
-	@Test
+	@Test(groups = "smoke")
 	public void cofig_AC() {
 		System.out.println("this is after class");
 	}
