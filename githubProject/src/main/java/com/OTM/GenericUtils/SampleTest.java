@@ -1,10 +1,12 @@
 package com.OTM.GenericUtils;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class SampleTest {
 
-	
+	WebDriver driver ;
 	
 	@Test
 	public void m1Test() {
@@ -17,8 +19,9 @@ public class SampleTest {
 		
 		
 		
-		System.out.println("m1Test is launching ");
-	
+		 driver=new ChromeDriver();
+		driver.get("https://www.facebook.com");
+	System.out.println("browser is Executing");
 		
 		
 		
